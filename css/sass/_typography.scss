@@ -1,0 +1,36 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+
+h1 {
+	font-size: 24px;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+a {
+	color: $primary;
+	text-decoration: none;
+}
+
+.btn-primary {
+	display: inline-block;
+	background-color: $primary;
+	color: white;
+	line-height: 40px;
+	padding: 0 30px;
+	border-radius: 4px;
+	transition: all .3s ease;
+	&:hover {
+		background-color: darken($primary, 5%);
+		cursor: pointer;
+	}
+}
