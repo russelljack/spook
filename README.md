@@ -1,6 +1,4 @@
-# rjack-boilerplate
+# spook
 
-starting place for projects to get up quickly w/ the sass structure i like :)
-
-a WIP
-- still going
+prototyping framework for ghostery ideas
+- a WIP
